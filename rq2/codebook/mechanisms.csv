@@ -1,0 +1,46 @@
+id,name,parent,type,ir_assignments
+N01,Entity identity and referent preservation,B02,recurring,15
+N02,Admission and invariant validation,B02,recurring,13
+N03,Meaning-preserving representation transformation,B01,recurring,10
+N04,Predicate-governed applicability,B02,recurring,11
+N05,Omission and default-state semantics,B01,recurring,11
+N06,Outcome-semantic distinction,B01,recurring,8
+N07,Authoritative and dependent state synchronization,B03,recurring,13
+N08,Consumer-recognized boundary binding,B05,recurring,10
+N09,Shared-change non-target preservation,B06,recurring,26
+N10,Observation derivation and attribution,B07,recurring,9
+N11,Deterministic domain resolution and sequencing,B02,recurring,8
+N12,State ownership and side-effect isolation,B03,recurring,7
+N13,Authoritative source precedence,B02,recurring,5
+N14,Translation-pipeline participation,B05,recurring,5
+N15,Machine-consumable structural semantics,B09,recurring,5
+N16,Prerequisite readiness before activation,B04,recurring,4
+N17,Supported-channel diagnostic propagation,B05,recurring,6
+N18,Result-reuse admission and partitioning,B02,recurring,4
+N19,Terminal-path resource closure,B04,recurring,4
+N20,Established protection-policy inheritance,B05,recurring,3
+N21,Post-acceptance work settlement,B04,recurring,3
+N22,Principal authorization enforcement,B02,recurring,2
+N23,Bounded work and cardinality shaping,B08,recurring,5
+N24,Supported-variant behavior propagation,B06,recurring,7
+N25,Boundary output minimization,B05,recurring,2
+N26,Variable-content presentation containment,B09,recurring,2
+N27,Cross-stage identity and provenance continuity,B05,recurring,6
+N28,Authoritative collection projection,B07,recurring,6
+E01,Observation lifecycle validity,B07,long-tail,7
+E02,Anti-forgery proof-flow completion,B05,long-tail,5
+E03,Exact cursor traversal,B07,long-tail,4
+E04,Retryable failed-operation state restoration,B03,long-tail,2
+E05,Execution-context-compatible coordination,B05,long-tail,1
+E06,Usage-contract synchronization,B05,long-tail,1
+E07,Failure-isolated work continuation,B04,long-tail,1
+E08,Prospective-effect truthfulness,B07,long-tail,1
+E09,Controlled-origin mediation,B05,long-tail,1
+E10,Non-enumerable capability allocation,B02,long-tail,1
+E11,Content-derived direction selection,B09,long-tail,1
+E12,Omitted-path optional-dependency independence,B01,long-tail,1
+E13,Stable restart work identity,B02,long-tail,1
+E14,Post-acceptance checkpoint commit,B03,long-tail,1
+E15,High-cardinality observation-identity exclusion,B08,long-tail,2
+E16,First-use custom-root provisioning,B04,long-tail,1
+E17,Playlist aggregate synchronization,B03,long-tail,4

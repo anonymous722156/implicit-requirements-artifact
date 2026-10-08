@@ -1,0 +1,486 @@
+{
+  "rq1": {
+    "tasks": 100,
+    "ir_positive_tasks": 67,
+    "irs": 217,
+    "mean_irs_per_task": 2.17,
+    "maximum_irs_per_task": 11
+  },
+  "taxonomy": {
+    "classified_irs": 217,
+    "agreement": {
+      "parent": {
+        "n": 28,
+        "jaccard_alpha": 0.9723517654896735,
+        "three_way_exact_agreement": 0.9642857142857143
+      },
+      "mechanism": {
+        "n": 177,
+        "jaccard_alpha": 0.9519668887169378,
+        "three_way_exact_agreement": 0.9209039548022598
+      },
+      "activation": {
+        "n": 217,
+        "jaccard_alpha": 0.7572366249931053,
+        "three_way_exact_agreement": 0.7050691244239631
+      },
+      "scope": {
+        "n": 217,
+        "jaccard_alpha": 0.7536677820695226,
+        "three_way_exact_agreement": 0.4976958525345622
+      },
+      "protected_outcome": {
+        "n": 217,
+        "jaccard_alpha": 0.8479361581177075,
+        "three_way_exact_agreement": 0.7695852534562212
+      },
+      "failure_manifestation": {
+        "n": 217,
+        "jaccard_alpha": 0.8496967745809332,
+        "three_way_exact_agreement": 0.7465437788018433
+      },
+      "evolution_relation": {
+        "n": 217,
+        "jaccard_alpha": 0.8290930034557019,
+        "three_way_exact_agreement": 0.9032258064516129
+      }
+    },
+    "agreement_source": "rq2/agreement-results.csv"
+  },
+  "rq3": {
+    "deepseek": {
+      "ir_count": 217,
+      "case_count": 67,
+      "per_repeat": [
+        {
+          "outcomes": {
+            "HIT": 142,
+            "DIFFERENT": 12,
+            "MISSING": 63
+          },
+          "micro_hit_percent": 65.43778801843318,
+          "macro_hit_percent": 71.74517025263295,
+          "all_hit_cases": 35
+        },
+        {
+          "outcomes": {
+            "HIT": 162,
+            "DIFFERENT": 26,
+            "MISSING": 29
+          },
+          "micro_hit_percent": 74.65437788018433,
+          "macro_hit_percent": 78.10498373931209,
+          "all_hit_cases": 41
+        },
+        {
+          "outcomes": {
+            "HIT": 149,
+            "DIFFERENT": 25,
+            "MISSING": 43
+          },
+          "micro_hit_percent": 68.66359447004608,
+          "macro_hit_percent": 74.73907518683637,
+          "all_hit_cases": 39
+        }
+      ],
+      "micro_hit_mean_percent": 69.5852534562212,
+      "micro_hit_sample_sd_percentage_points": 4.676908555342034,
+      "hit_count_distribution": {
+        "0": 46,
+        "1": 22,
+        "2": 16,
+        "3": 133
+      }
+    },
+    "gpt6_sol": {
+      "ir_count": 217,
+      "case_count": 67,
+      "per_repeat": [
+        {
+          "outcomes": {
+            "HIT": 147,
+            "DIFFERENT": 19,
+            "MISSING": 51
+          },
+          "micro_hit_percent": 67.74193548387096,
+          "macro_hit_percent": 74.80067196485108,
+          "all_hit_cases": 35
+        },
+        {
+          "outcomes": {
+            "HIT": 140,
+            "DIFFERENT": 33,
+            "MISSING": 44
+          },
+          "micro_hit_percent": 64.51612903225806,
+          "macro_hit_percent": 70.34427429949818,
+          "all_hit_cases": 35
+        },
+        {
+          "outcomes": {
+            "HIT": 130,
+            "DIFFERENT": 37,
+            "MISSING": 50
+          },
+          "micro_hit_percent": 59.90783410138249,
+          "macro_hit_percent": 68.0622321293963,
+          "all_hit_cases": 32
+        }
+      ],
+      "micro_hit_mean_percent": 64.0552995391705,
+      "micro_hit_sample_sd_percentage_points": 3.9373289148928667,
+      "hit_count_distribution": {
+        "0": 53,
+        "1": 24,
+        "2": 27,
+        "3": 113
+      }
+    },
+    "minimax": {
+      "ir_count": 217,
+      "case_count": 67,
+      "per_repeat": [
+        {
+          "outcomes": {
+            "HIT": 137,
+            "DIFFERENT": 35,
+            "MISSING": 45
+          },
+          "micro_hit_percent": 63.133640552995395,
+          "macro_hit_percent": 68.92873295858371,
+          "all_hit_cases": 35
+        },
+        {
+          "outcomes": {
+            "HIT": 136,
+            "DIFFERENT": 33,
+            "MISSING": 48
+          },
+          "micro_hit_percent": 62.672811059907836,
+          "macro_hit_percent": 72.3538691822274,
+          "all_hit_cases": 36
+        },
+        {
+          "outcomes": {
+            "HIT": 145,
+            "DIFFERENT": 39,
+            "MISSING": 33
+          },
+          "micro_hit_percent": 66.82027649769586,
+          "macro_hit_percent": 74.09871637483579,
+          "all_hit_cases": 38
+        }
+      ],
+      "micro_hit_mean_percent": 64.20890937019969,
+      "micro_hit_sample_sd_percentage_points": 2.273217908901498,
+      "hit_count_distribution": {
+        "0": 60,
+        "1": 15,
+        "2": 23,
+        "3": 119
+      }
+    }
+  },
+  "rq4": {
+    "deepseek": {
+      "original": {
+        "ir_count": 84,
+        "case_count": 36,
+        "per_repeat": [
+          {
+            "outcomes": {
+              "HIT": 9,
+              "DIFFERENT": 12,
+              "MISSING": 63
+            },
+            "micro_hit_percent": 10.714285714285714,
+            "macro_hit_percent": 15.277777777777779,
+            "all_hit_cases": 4
+          },
+          {
+            "outcomes": {
+              "HIT": 29,
+              "DIFFERENT": 26,
+              "MISSING": 29
+            },
+            "micro_hit_percent": 34.523809523809526,
+            "macro_hit_percent": 34.56238977072311,
+            "all_hit_cases": 10
+          },
+          {
+            "outcomes": {
+              "HIT": 16,
+              "DIFFERENT": 25,
+              "MISSING": 43
+            },
+            "micro_hit_percent": 19.047619047619047,
+            "macro_hit_percent": 26.747134038800706,
+            "all_hit_cases": 8
+          }
+        ],
+        "micro_hit_mean_percent": 21.42857142857143,
+        "micro_hit_sample_sd_percentage_points": 12.082013767966929,
+        "hit_count_distribution": {
+          "0": 46,
+          "1": 22,
+          "2": 16,
+          "3": 0
+        }
+      },
+      "explicit": {
+        "ir_count": 84,
+        "case_count": 36,
+        "per_repeat": [
+          {
+            "outcomes": {
+              "HIT": 69,
+              "DIFFERENT": 14,
+              "MISSING": 1
+            },
+            "micro_hit_percent": 82.14285714285714,
+            "macro_hit_percent": 82.26080246913581,
+            "all_hit_cases": 25
+          },
+          {
+            "outcomes": {
+              "HIT": 65,
+              "DIFFERENT": 17,
+              "MISSING": 2
+            },
+            "micro_hit_percent": 77.38095238095238,
+            "macro_hit_percent": 76.08024691358025,
+            "all_hit_cases": 23
+          },
+          {
+            "outcomes": {
+              "HIT": 67,
+              "DIFFERENT": 16,
+              "MISSING": 1
+            },
+            "micro_hit_percent": 79.76190476190476,
+            "macro_hit_percent": 76.58289241622575,
+            "all_hit_cases": 23
+          }
+        ],
+        "micro_hit_mean_percent": 79.76190476190476,
+        "micro_hit_sample_sd_percentage_points": 2.3809523809523796,
+        "hit_count_distribution": {
+          "0": 10,
+          "1": 4,
+          "2": 13,
+          "3": 57
+        }
+      }
+    },
+    "gpt6_sol": {
+      "original": {
+        "ir_count": 104,
+        "case_count": 42,
+        "per_repeat": [
+          {
+            "outcomes": {
+              "HIT": 34,
+              "DIFFERENT": 19,
+              "MISSING": 51
+            },
+            "micro_hit_percent": 32.69230769230769,
+            "macro_hit_percent": 35.359032501889644,
+            "all_hit_cases": 10
+          },
+          {
+            "outcomes": {
+              "HIT": 27,
+              "DIFFERENT": 33,
+              "MISSING": 44
+            },
+            "micro_hit_percent": 25.96153846153846,
+            "macro_hit_percent": 28.37490551776266,
+            "all_hit_cases": 10
+          },
+          {
+            "outcomes": {
+              "HIT": 17,
+              "DIFFERENT": 37,
+              "MISSING": 50
+            },
+            "micro_hit_percent": 16.346153846153847,
+            "macro_hit_percent": 22.804232804232804,
+            "all_hit_cases": 7
+          }
+        ],
+        "micro_hit_mean_percent": 25.0,
+        "micro_hit_sample_sd_percentage_points": 8.215388216651473,
+        "hit_count_distribution": {
+          "0": 53,
+          "1": 24,
+          "2": 27,
+          "3": 0
+        }
+      },
+      "explicit": {
+        "ir_count": 104,
+        "case_count": 42,
+        "per_repeat": [
+          {
+            "outcomes": {
+              "HIT": 64,
+              "DIFFERENT": 16,
+              "MISSING": 24
+            },
+            "micro_hit_percent": 61.53846153846154,
+            "macro_hit_percent": 68.21806500377929,
+            "all_hit_cases": 24
+          },
+          {
+            "outcomes": {
+              "HIT": 65,
+              "DIFFERENT": 12,
+              "MISSING": 27
+            },
+            "micro_hit_percent": 62.5,
+            "macro_hit_percent": 75.63303099017385,
+            "all_hit_cases": 28
+          },
+          {
+            "outcomes": {
+              "HIT": 64,
+              "DIFFERENT": 21,
+              "MISSING": 19
+            },
+            "micro_hit_percent": 61.53846153846154,
+            "macro_hit_percent": 72.46409674981103,
+            "all_hit_cases": 25
+          }
+        ],
+        "micro_hit_mean_percent": 61.85897435897436,
+        "micro_hit_sample_sd_percentage_points": 0.5551444896054084,
+        "hit_count_distribution": {
+          "0": 22,
+          "1": 18,
+          "2": 17,
+          "3": 47
+        }
+      }
+    },
+    "minimax": {
+      "original": {
+        "ir_count": 98,
+        "case_count": 38,
+        "per_repeat": [
+          {
+            "outcomes": {
+              "HIT": 18,
+              "DIFFERENT": 35,
+              "MISSING": 45
+            },
+            "micro_hit_percent": 18.367346938775512,
+            "macro_hit_percent": 23.259284575074048,
+            "all_hit_cases": 6
+          },
+          {
+            "outcomes": {
+              "HIT": 17,
+              "DIFFERENT": 33,
+              "MISSING": 48
+            },
+            "micro_hit_percent": 17.346938775510203,
+            "macro_hit_percent": 26.69590643274854,
+            "all_hit_cases": 7
+          },
+          {
+            "outcomes": {
+              "HIT": 26,
+              "DIFFERENT": 39,
+              "MISSING": 33
+            },
+            "micro_hit_percent": 26.53061224489796,
+            "macro_hit_percent": 33.63522442469811,
+            "all_hit_cases": 9
+          }
+        ],
+        "micro_hit_mean_percent": 20.74829931972789,
+        "micro_hit_sample_sd_percentage_points": 5.0335539411390275,
+        "hit_count_distribution": {
+          "0": 60,
+          "1": 15,
+          "2": 23,
+          "3": 0
+        }
+      },
+      "explicit": {
+        "ir_count": 98,
+        "case_count": 38,
+        "per_repeat": [
+          {
+            "outcomes": {
+              "HIT": 48,
+              "DIFFERENT": 24,
+              "MISSING": 26
+            },
+            "micro_hit_percent": 48.97959183673469,
+            "macro_hit_percent": 59.46855775803144,
+            "all_hit_cases": 18
+          },
+          {
+            "outcomes": {
+              "HIT": 57,
+              "DIFFERENT": 21,
+              "MISSING": 20
+            },
+            "micro_hit_percent": 58.16326530612245,
+            "macro_hit_percent": 64.633553580922,
+            "all_hit_cases": 21
+          },
+          {
+            "outcomes": {
+              "HIT": 46,
+              "DIFFERENT": 25,
+              "MISSING": 27
+            },
+            "micro_hit_percent": 46.93877551020408,
+            "macro_hit_percent": 56.77849927849928,
+            "all_hit_cases": 17
+          }
+        ],
+        "micro_hit_mean_percent": 51.36054421768707,
+        "micro_hit_sample_sd_percentage_points": 5.979046201104403,
+        "hit_count_distribution": {
+          "0": 31,
+          "1": 19,
+          "2": 12,
+          "3": 36
+        }
+      }
+    }
+  },
+  "trajectory": {
+    "deepseek": {
+      "NO_OBSERVABLE_RECOGNITION": 97,
+      "RETRIEVAL_BREAKDOWN": 6,
+      "OBLIGATION_INDUCTION_BREAKDOWN": 84,
+      "PLANNING_BREAKDOWN": 10,
+      "IMPLEMENTATION_BREAKDOWN": 1,
+      "VERIFICATION_BREAKDOWN": 0
+    },
+    "gpt6_sol": {
+      "NO_OBSERVABLE_RECOGNITION": 155,
+      "RETRIEVAL_BREAKDOWN": 7,
+      "OBLIGATION_INDUCTION_BREAKDOWN": 58,
+      "PLANNING_BREAKDOWN": 6,
+      "IMPLEMENTATION_BREAKDOWN": 8,
+      "VERIFICATION_BREAKDOWN": 0
+    },
+    "minimax": {
+      "NO_OBSERVABLE_RECOGNITION": 124,
+      "RETRIEVAL_BREAKDOWN": 15,
+      "OBLIGATION_INDUCTION_BREAKDOWN": 80,
+      "PLANNING_BREAKDOWN": 2,
+      "IMPLEMENTATION_BREAKDOWN": 12,
+      "VERIFICATION_BREAKDOWN": 0
+    }
+  },
+  "package": {
+    "rq3_result_labels": 1953,
+    "rq4_target_result_labels": 858
+  }
+}

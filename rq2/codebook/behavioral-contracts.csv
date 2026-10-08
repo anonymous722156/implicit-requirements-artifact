@@ -1,0 +1,10 @@
+id,name,classification_question,ir_assignments
+B01,Value-State and Outcome Semantics,"Does the obligation determine the domain meaning assigned to a value, omission, transformation, default state, or observable outcome, independently of how that result is delivered?",29
+B02,"Reference, Eligibility, Choice, and Ordering","Does the obligation establish the referent or apply the domain relation that validates, selects, orders, prioritizes, authorizes, or admits a candidate, source, result, target, or effect?",59
+B03,"State Mutation, Synchronization, and Ownership","Does the obligation constrain how authoritative, dependent, persisted, aliased, caller-owned, or operation-owned state may change or remain isolated?",20
+B04,Operation Lifecycle Responsibility,"Does the obligation govern a transfer of lifecycle responsibility: entry only after prerequisites are ready, settlement after work is accepted, or closure of operation-owned resources when ownership ends?",11
+B05,Cross-Boundary Contract and Propagation,"Does the obligation establish or preserve a consumer-recognized binding, identity, message, diagnostic, policy, provenance relation, or permitted output across a component, stage, representation, locale, origin, or disclosure boundary?",40
+B06,Evolution and Supported-Coverage Relation,Is comparison with established non-target behavior or the complete supported target-variant set itself constitutive of the omission witness?,32
+B07,Observation and Collection Projection,"Does the obligation determine whether observations, attribution, counts, membership, windows, continuation, or traversal truthfully project authoritative events or collection state?",21
+B08,Work and State Amplification Bounds,"Does the obligation constrain the relation between logical input or observed variety and generated work, capacity demand, or persistent identity/state growth?",5
+B09,Consumer-Reconstructable and Presentation Structure,"Does the obligation determine machine- or human-consumable structure, geometry, direction, hierarchy, navigation, or reachability of presented or model-exposed content?",8

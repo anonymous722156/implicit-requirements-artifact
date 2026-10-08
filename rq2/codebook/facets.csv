@@ -1,0 +1,55 @@
+dimension,id,description,ir_assignments
+activation,AE01_INVOCATION_OR_QUERY_ENTRY,"A request, command, query, constructor, read, or valid input enters the focal processing boundary.",44
+activation,AE02_RESOLUTION_OR_ADMISSION_DECISION,"The obligation activates when configuration, identity, candidates, validity, applicability, or source choice is resolved.",58
+activation,AE03_STATE_TRANSITION_OR_COMMIT,"A requested, planned, or committed domain-state change directly activates the obligation.",20
+activation,AE04_SUCCESSFUL_NONMUTATING_RESULT,"A successful read, retrieval, load, bootstrap, or other non-mutating result becomes available.",10
+activation,AE05_FAILURE_REJECTION_OR_EXCEPTION,"An actual failure, rejection, thrown exception, or unsuccessful operation activates recovery, cleanup, restoration, or diagnostic behavior.",16
+activation,AE06_LIFECYCLE_TRANSITION,"Start, readiness, completion, shutdown, termination, or another lifecycle transition is the direct event.",9
+activation,AE07_PRESENTATION_OR_ASSISTIVE_TRAVERSAL,"Content is rendered, presented, laid out, localized, or traversed by assistive technology.",16
+activation,AE08_DIRECT_USER_INTERACTION,"A user directly clicks, selects, seeks, types, or deliberately opens/inspects an interactive surface.",6
+activation,AE09_OUTPUT_EMISSION,"Internal state is serialized, projected, reported, labeled, exported, transported, or emitted.",31
+activation,AE10_RESOURCE_LIFECYCLE,"A concrete operation-owned resource is created, acquired, staged, initialized, or released.",5
+activation,ALTERNATIVE_ROUTES,The same atomic obligation explicitly activates on two distinct event routes that cannot be reduced to one event without losing evidence.,2
+scope,B-SC01,Local Decision Scope,9
+scope,B-SC02,Direct Contract Handoff,31
+scope,B-SC03,Dependent Pipeline Scope,56
+scope,B-SC04,"Principal, Origin, or Ownership Partition Scope",19
+scope,B-SC09,Consumer-facing Structural Topology,8
+scope,B-SC05,Supported Peer-variant Extent,34
+scope,B-SC06,Shared-change Regression Neighborhood,33
+scope,B-SC07,"Collection, Membership, or Work-unit Extent",21
+scope,B-SC08,Lifecycle or Temporal Extent,28
+protected_outcome,PO01,Residual Domain-Result Correctness,14
+protected_outcome,PO02,Identity and Association Integrity,29
+protected_outcome,PO03,State and Data Coherence,19
+protected_outcome,PO04,Interface-Contract Interoperability,28
+protected_outcome,PO05,Admission and Policy Correctness,17
+protected_outcome,PO06,"Security, Privacy, and Scope Control",20
+protected_outcome,PO09,Availability and Liveness,22
+protected_outcome,PO10,Resource and Scale Boundedness,10
+protected_outcome,PO11A,Observation Presence and Reachability,13
+protected_outcome,PO11B,Observation Fidelity and Attribution,24
+protected_outcome,PO12,Recovery and Lifecycle Completion,8
+protected_outcome,PO13,Relational Stability under Repetition,12
+protected_outcome,PO14A,Equivalent Human Access,9
+protected_outcome,PO14B,Presentation Containment and Reachability,2
+protected_outcome,PO15,Human Choice and Content Fidelity,15
+failure_manifestation,FM01,"Wrong Value, Classification, or Semantics",33
+failure_manifestation,FM02,"Wrong or Ambiguous Identity, Target, or Attribution",25
+failure_manifestation,FM03,"Missing Data, Output, or Behavior",20
+failure_manifestation,FM04,Unexpected Rejection or Unavailable Operation,28
+failure_manifestation,FM05,Invalid Acceptance or Forbidden Effect,15
+failure_manifestation,FM06,"Omission-Caused Crash, Exception, or Startup Failure",9
+failure_manifestation,FM07,"Stall, Hang, or Premature Processing Termination",4
+failure_manifestation,FM08,"Stale, Inconsistent, Corrupted, or Unintended State",18
+failure_manifestation,FM09,"Multiplicity, Ordering, or Repeatability Defect",17
+failure_manifestation,FM10,"Disclosure, Cross-Scope Contamination, or Unauthorized Access",12
+failure_manifestation,FM11,Resource Leak or Hard Capacity Violation,5
+failure_manifestation,FM12,Scaling Load or Performance Degradation,6
+failure_manifestation,FM13,Masked Failure Semantics,13
+failure_manifestation,FM14,Direct Producer-Consumer Interoperability Break,13
+failure_manifestation,FM15,Diagnostic or Observation Loss,11
+failure_manifestation,FM16A,Equivalent-Access Defect,9
+failure_manifestation,FM16B,Visual Containment Defect,2
+failure_manifestation,FM17,Data/Progress Loss or Failed Recovery,8
+evolution_relation,ER01_ESTABLISHED_OR_NONTARGET_PRESERVATION,Established or non-target behavior preservation,55
